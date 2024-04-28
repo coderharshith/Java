@@ -76,9 +76,10 @@
             }
 
         4.object:-
-        An entity that has state and behavior is known as an object, It can be physical or logical. 
-        book_library book1 = new book_library();
-        
+            An entity that has state and behavior is known as an object, It can be physical or logical. 
+            Syntax:-
+            book_library book1 = new book_library();
+
         5.interface:- 
             An interface is declared like a class. The key difference is that the interface contains abstract methods by default; they have nobody.
             Syntax:-
