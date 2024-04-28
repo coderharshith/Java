@@ -1,7 +1,7 @@
-### Java Tutorial
+# Java Tutorial
 ## Topic 1 Datatypes and Variables
 
-# Variables in java
+### Variables in java
         ***
         *variables in Java language are the names used to refer to data stored in the memory
         *One Java variable can hold only a single type of data.
@@ -10,7 +10,7 @@
         ***
 
 
-# Datatypes in Java
+### Datatypes in Java
     ** 
     8-Primitive:-
         1.byte :- The byte is the smallest data type among all the integer data types  It is an 8-bit signed two’s complement integer. It stores whole numbers ranging from -128 to 127.
