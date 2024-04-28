@@ -1,11 +1,11 @@
 # Java Tutorial
-## Topic 1 Output
+## Topic 1:- Output Statement
 ### Output
     System.out.println("coderharshith");
     System.out.print("coderharshith"); it won't give new line after printing 'coderharshith'
 
 
-## Topic 2 Datatypes and Variables
+## Topic 2:- Datatypes and Variables
 
 ### Variables in java
         ***
