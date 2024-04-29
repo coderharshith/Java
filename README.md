@@ -105,13 +105,15 @@
    
  ## Topic 3:- Conditional Statements 
    ***
-    *The four conditional statements in Java are: if, if-else, else-if ladder, and switch. The 'if-else' *statement executes different code based on whether the condition is true or false. The 'switch' statement *evaluates an expression and executes the code corresponding to the matching case
+   *
+    The four conditional statements in Java are: if, if-else, else-if ladder, and switch. The 'if-else' statement executes different code based on whether the condition is true or false. The 'switch' statement evaluates an expression and executes the code corresponding to the matching case
+    *
   ### if, if-else, else-if ladder
-
+    *if statement
         if (10 >= 10) {
             System.out.println("matching");
         }
-
+    *if-else statement
         if (10%2 == 0) {
             System.out.println("even");
         }
@@ -119,7 +121,7 @@
              System.out.println("odd");
         }
 
-
+    *else-if ladder
      int cgpa = 8;
         if (cgpa >= 8 || cgpa <= 10) {
             System.out.println("Excellent");
