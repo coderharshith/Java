@@ -92,7 +92,7 @@
     The Scanner class is used to get user input, and it is found in the java.util package.
     To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.
     Syntax:-
-    ```
+    `
         import java.util.*;
         public class _3input {
             public static void main(String[] args) {
@@ -101,5 +101,5 @@
                 System.out.println(n);
             }
         }
-    ```
+    `
    ***
