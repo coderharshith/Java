@@ -1,13 +1,28 @@
 # Java Tutorial
-## Topic 1:- Output Statement
-### Output
+ ## Topic 1:- Output/input Statement
+ ### Output
     System.out.println("coderharshith");
     System.out.print("coderharshith"); it won't give new line after printing 'coderharshith'
+ ### Input Statement 
+   ***
+    The Scanner class is used to get user input, and it is found in the java.util package.
+    To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.
+    Syntax:-
+    `
+        import java.util.*;
+        public class _3input {
+            public static void main(String[] args) {
+                Scanner input = new Scanner(System.in);
+                int n = input.nextInt();
+                System.out.println(n);
+            }
+        }
+    `
+   ***
 
+ ## Topic 2:- Datatypes and Variables
 
-## Topic 2:- Datatypes and Variables
-
-### Variables in java
+  ### Variables in java
         ***
         *variables in Java language are the names used to refer to data stored in the memory
         *One Java variable can hold only a single type of data.
@@ -16,7 +31,7 @@
         ***
 
 
-### Datatypes in Java
+  ### Datatypes in Java
     ***
     *8-Primitive:-
         Primitive data types specify the size and type of variable values. They are the building blocks of data manipulation and cannot be further divided into simpler data types.
@@ -87,19 +102,54 @@
                 } 
     ***
 
-   ### Input Statement in Java
+   
+ ## Topic 3:- Conditional Statements 
    ***
-    The Scanner class is used to get user input, and it is found in the java.util package.
-    To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.
-    Syntax:-
-    `
-        import java.util.*;
-        public class _3input {
-            public static void main(String[] args) {
-                Scanner input = new Scanner(System.in);
-                int n = input.nextInt();
-                System.out.println(n);
-            }
+    The four conditional statements in Java are: if, if-else, else-if ladder, and switch. The 'if-else' statement executes different code based on whether the condition is true or false. The 'switch' statement evaluates an expression and executes the code corresponding to the matching case
+  ### if, if-else, else-if ladder
+   > if statement
+        if (10 == 10) {
+            System.out.println("matching");
         }
-    `
+
+   > if-else
+        if (10 == 8) {
+            System.out.println("matching");
+        }
+        else{
+             System.out.println("not matching");
+        }
+
+   > else-if ladder 
+     int cgpa = 8;
+        if (cgpa >= 8 || cgpa <= 10) {
+            System.out.println("Excellent");
+        }
+        else if (cgpa >= 6 || cgpa <= 7) {
+            System.out.println("Good");
+        }
+        else if (cgpa >= 4 || cgpa <= 5) {
+            System.out.println("Pass");
+        }
+        else{
+            System.out.println("Fail");
+        }
+   
+   ### Switch Statement
+    *
+        Instead of writing many if..else statements, you can use the switch statement.
+        The switch statement selects one of many code blocks to be executed.
+    *
+   > switch 
+    int ch = 1;
+        switch (ch) {
+            case 1:
+                System.out.println("hi");
+                break;
+            case 2:
+                System.out.println("hello");
+                break;        
+            default: System.out.println("wrong choice");
+                break;
+        }
    ***
