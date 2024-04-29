@@ -65,7 +65,6 @@
         2.array:- 
             An array holds elements of the same type. It is an object in Java, and the array name (used for declaration) is a reference value that carries the base address of the continuous location of elements of an array.
         Syntax:- 
-            - int Array_Name = new int[7];
             - int[] array_name  = {10,20,40,50}
             - String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
@@ -87,3 +86,20 @@
                     void print();  
                 } 
     ***
+
+   ### Input Statement in Java
+   ***
+    The Scanner class is used to get user input, and it is found in the java.util package.
+    To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.
+    Syntax:-
+    ```
+        import java.util.*;
+        public class _3input {
+            public static void main(String[] args) {
+                Scanner input = new Scanner(System.in);
+                int n = input.nextInt();
+                System.out.println(n);
+            }
+        }
+    ```
+   ***
