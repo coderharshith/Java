@@ -152,3 +152,52 @@
                 break;
         }
    ***
+
+  ## Topic 4:- Loop 
+    ***
+        Looping in programming languages is a feature which facilitates the execution of a set of instructions/functions repeatedly while some condition evaluates to true.
+    ***
+   ### for Loop
+   ***
+        for loop provides a concise way of writing the loop structure.
+        Syntax:-
+            for (initialization condition; testing condition;increment/decrement)
+            {
+                statement(s)
+            }
+   *** 
+   ### while Loop
+   ***
+        A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition.
+        The while loop can be thought of as a repeating if statement. 
+        Syntax:-
+            while (boolean condition)
+            {
+                loop statements...
+            }
+   *** 
+   ### do-while Loop
+   ***
+         do while loop is similar to while loop with only difference that it checks for condition after executing the statements, and therefore is an example of Exit Control Loop.  
+        Syntax:-
+            do
+            {
+                statements..
+            }
+            while (condition);
+   *** 
+   ###  for-each Loop
+   ***
+         for-each is another array traversing technique like for loop, while loop, do-while loop introduced in Java5.  
+         **
+           - It starts with the keyword for like a normal for-loop.
+            -Instead of declaring and initializing a loop counter variable, you declare a variable that is the same type as the base type of the array, followed by a colon, which is then followed by the array name.
+           - In the loop body, you can use the loop variable you created rather than using an indexed array element. 
+           - It’s commonly used to iterate over an array or a Collections class (eg, ArrayList)
+         ** 
+        Syntax:-
+            for (type var : array) 
+            { 
+                statements using var;
+            }
+   *** 
