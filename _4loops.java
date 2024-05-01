@@ -8,7 +8,7 @@ public class _4loops {
         }
         System.out.println();
 
-        
+
         // while loop
         int i = 1;
         while (i <= 10) {
@@ -27,5 +27,11 @@ public class _4loops {
             i++;
         }
         while(i <= 10);
+
+        // for-each loop
+        int ar[] = { 10, 50, 60, 80, 90 }; 
+        for (int element : ar) 
+            System.out.print(element + " "); 
+
     }
 }
