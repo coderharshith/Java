@@ -8,16 +8,16 @@
     The Scanner class is used to get user input, and it is found in the java.util package.
     To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.
     Syntax:-
-    `
-        import java.util.*;
-        public class _3input {
-            public static void main(String[] args) {
-                Scanner input = new Scanner(System.in);
-                int n = input.nextInt();
-                System.out.println(n);
-            }
-        }
-    `
+  ```
+   import java.util.*;
+   public class _3input {
+       public static void main(String[] args) {
+           Scanner input = new Scanner(System.in);
+           int n = input.nextInt();
+           System.out.println(n);
+       }
+   }
+  ```
    ***
 
  ## Topic 2:- Datatypes and Variables
@@ -207,5 +207,6 @@
     ***
     Create a number guessing game where the computer generates a random number and the user has to guess it within a certain number of tries. Use loops to allow multiple guesses until the correct number is guessed or the maximum number of attempts is reached.
     project file 
-   [GitHub Page](https://github.com/coderharshith/Java/blob/main/_5p1_project.java)
+   [GETHUB PROJECT FILE](https://github.com/coderharshith/Java/blob/main/_5p1_project.java)
+    
     ***
