@@ -216,3 +216,9 @@
    [GETHUB PROJECT FILE](https://github.com/coderharshith/Java/blob/main/_5p1_project.java)
     Read all comments for better understand
     ***
+   ### Patterns :-
+    ***
+    Hollow Rectangle pattren
+   here we are comparing with boundary values like 0,3,4
+   <img src="https://github.com/coderharshith/Java/blob/main/pattrens.jpeg" width="128"/>
+   ***
