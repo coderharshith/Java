@@ -100,6 +100,8 @@
                 interface printable {  
                     void print();  
                 } 
+
+   [GETHUB loop FILE](https://github.com/coderharshith/Java/blob/main/_2variables.java)
     ***
 
    
@@ -151,6 +153,8 @@
             default: System.out.println("wrong choice");
                 break;
         }
+
+   [GETHUB loop FILE](https://github.com/coderharshith/Java/blob/main/_3conditional_statement.java)
    ***
 
   ## Topic 4:- Loop 
@@ -200,6 +204,8 @@
             { 
                 statements using var;
             }
+
+   [GETHUB loop FILE](https://github.com/coderharshith/Java/blob/main/_4loops.java)
    *** 
 
    ## Let we create simple Project:-
