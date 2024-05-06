@@ -219,6 +219,6 @@
    ### Patterns :-
     ***
     Hollow Rectangle pattren
-   here we are comparing with boundary values like 0,3,4
+    here we are comparing with boundary values like 0,3,4
    <img src="https://github.com/coderharshith/Java/blob/main/pattrens.jpeg" width="128"/>
    ***
